@@ -16,7 +16,7 @@
       <a href="#about" class="btn">About</a>
       <a href="#sessions" class="btn">Sessions</a>
       <a href="#join" class="btn">Join</a>
-      <a href="#join" class="btn">Participants</a>
+      <a href="#participants" class="btn">Participants</a>
     </section>
 
     <section class="main-content">
@@ -44,8 +44,13 @@
         <p>
             We'd also love to have a more general and diverse workshop that
             includes developers working on similar codes
-            (e.g. <a href="http://cta.irap.omp.eu/gammalib-devel/">Gammalib</a>/<a href="http://cta.irap.omp.eu/ctools-devel/">ctools</a> or
-            <a href="https://threeml.stanford.edu/">3ML</a>) or other gamma-ray telescopes
+            (e.g. <a href="http://cta.irap.omp.eu/gammalib-devel/">Gammalib</a> /
+            <a href="http://cta.irap.omp.eu/ctools-devel/">ctools</a>,
+            <a href="https://threeml.stanford.edu/">3ML</a>,
+            <a href="https://github.com/fermiPy/fermipy">FermiPy</a>,
+            <a href="https://github.com/woodmd/gammatools">gammatools</a>,
+            <a href="https://github.com/kialio/VHEObserverTools">VHEObserverTools</a>
+            ) or other gamma-ray telescopes
             (e.g. <a href="http://veritas.sao.arizona.edu/">VERITAS</a>,
             <a href="https://magic.mpp.mpg.de/">MAGIC</a> or
             <a href="http://www.hawc-observatory.org/">HAWC</a>),
@@ -70,22 +75,56 @@
             to <a href="mailto:Christoph.Deil@mpi-hd.mpg.de">Christoph Deil</a>.
         </p>
         <p>
-            We'll start with plenary presentations / demos / discussions on Monday:
-
+            We'll start on Monday with plenary presentations (~ 15 min each)
+            to give an overview of the ongoing activities, methods and Python software
+            that's relevant for this workshop.
+            (Not everything will be discussed in detail and worked on in the coming
+            days, this is meant to give participants a broad overview.):
             <ol>
-                <li><a href="https://github.com/sherpa/sherpa/issues/76">Sherpa GH #76 -- Python 3 support</a></li>
-                <li>Sherpa Sphinx API docs (including the object-oriented API)</li>
-                <li><a href="https://github.com/sherpa/sherpa/issues/73">Sherpa GH #73 -- Poisson statistics with background - implementing wstat</a></li>                
-
-            </ol>    
+                <li>Introduction: Everyone says who they are and what they are interested in, in 1 minute.</li>
+                <li>Introduction: Welcome, MPIK (Jim or Werner?)</li>
+                <li>Activities: H.E.S.S. (Christoph Deil?)</li>
+                <li>Activities: VERITAS? (tbd)</li>
+                <li>Activities: MAGIC? (tbd)</li>
+                <li>Activities: CTA (tbd)</li>
+                <li>Activities: HAWC? (tbd)</li>
+                <li>Activities: Fermi-LAT (tbd)</li>
+                <li>Activities: X-ray astronomy (tbd)</li>
+                <li>Status: Open example datasets, FITS data and IRF formats? (TBC: Catherine?)</li>
+                <li>Methods: 1D spectrum analysis in regions (like XSPEC) (tbd)</li>
+                <li>Methods: 2D image analysis in energy bands (tbd)</li>
+                <li>Methods: 3D cube analysis (tbd)</li>
+                <li>Methods: stacking observations (IRF averaging) (tbd)</li>
+                <li>Methods: joint modeling of observations (add likelihoods) (tbd)</li>
+                <li>Methods: source detection and upper limits? (tbd)</li>
+                <li>Software: Scientific Python stack (Python, Numpy, Scipy, Matplotlib, C interfacing)? (tbd)</li>
+                <li>Software: <a>Astropy</a>? (tbd)</li>
+                <li>Software: <a>Sherpa</a> (tbd)</li>
+                <li>Software: <a>ctapipe</a>? (tbd)</li>
+                <li>Software: <a>Gammapy</a> (TBC: Axel?)</li>
+                <li>Software: <a>Naima</a> (Victor Zabalza)</li>
+                <li>Software: <a>3ML</a> (TBC: Luigi Tibaldo)</li>
+                <li>Software: <a>Gammalib</a> / <a>ctools</a>? (tbd)</li>
+                <li>This is work in progress .... if we don't find a speaker items will
+                    be removed and if you'd like to come and present your package that's not currently
+                    listed here, please let us know!</li>
+            </ol>
+            
+            On Monday we'll end with a few plenary discussion sessions:
+            
+            <ol>
+                <li>Goals for the workshop</li>
+                <li>Long-term technical goals (common tools, data formats, ...)</li>
+                <li>Science goals - multi-mission analysis (e.g. Fermi-IACT-HAWC)</li>
+            </ol>
+            on the goals for the workshop as well as long-term goals.
             
             The rest of the week (Tuesday to Friday) will be mostly a free-form work meeting.
             Workshop participants propose things (features, checks, analyses) they'd like to discuss and
             work on and from small sub-groups to work on in parallel.
         
-            There will be a few hands-on tutorials.
-
-            Major features / issues:
+        
+            There will be a few hands-on tutorial sessions,
             
             <ol>
                 <li><a href="https://github.com/sherpa/sherpa/issues/76">Sherpa GH #76 -- Python 3 support</a></li>
@@ -171,13 +210,13 @@
         Preliminary list of participants:
         <p>
             <ol>
-                <li>Christoph Deil (MPIK, Heidelberg)</li>
-                <li>Axel Donath (MPIK, Heidelberg)</li>
-                <li>Peter Eger (MPIK, Heidelberg)</li>
-                <li>Johannes King (MPIK, Heidelberg)</li>
-                <li>Regis Terrier (APC, Paris)</li>
-                <li>Luigi Tibaldo (SLAC, Stanford)</li>
-                <li>Victor Zabalza (Leicester)</li>
+                <li>Christoph Deil (MPIK, Heidelberg, Germany) -- Local organiser</li>
+                <li>Axel Donath (MPIK, Heidelberg, Germany) -- Local organiser</li>
+                <li>Peter Eger (MPIK, Heidelberg, Germany) -- Local organiser</li>
+                <li>Johannes King (MPIK, Heidelberg, Germany) -- Local organiser</li>
+                <li>Luigi Tibaldo (MPIK, Heidelberg, Germany)</li>
+                <li>Regis Terrier (APC, Paris, France)</li>
+                <li>Victor Zabalza (Leicester, UK)</li>
                 <li>Sherpa developers from CFA (if NASA travel request is approved)</li>
             </ol>    
         </p>
