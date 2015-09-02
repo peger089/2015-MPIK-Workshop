@@ -2,7 +2,7 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>2015 Sherpa / Gammapy Workshop</title>
+    <title>2015-MPIK-Workshop</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -12,10 +12,11 @@
   <body>
     <section class="page-header">
       <h1 class="project-name">Python for gamma-ray astronomy</h1>
-      <h2 class="project-tagline">A Sherpa / Gammapy workshop at MPIK Heidelberg, November 2 - 6, 2015</h2>
+      <h2 class="project-tagline">A workshop at MPIK Heidelberg, November 2 - 6, 2015</h2>
       <a href="#about" class="btn">About</a>
-      <a href="#content" class="btn">Content</a>
+      <a href="#sessions" class="btn">Sessions</a>
       <a href="#join" class="btn">Join</a>
+      <a href="#join" class="btn">Participants</a>
     </section>
 
     <section class="main-content">
@@ -53,15 +54,30 @@
         </p>
 
         <h3>
-            <a id="content" class="anchor" href="#content" aria-hidden="true"><span class="octicon octicon-link"></span></a>
-            Content
+            <a id="sessions" class="anchor" href="#sessions" aria-hidden="true"><span class="octicon octicon-link"></span></a>
+            Sessions
         </h3>
         <p>
             The format of this workshop will be modeled roughly on the
-            <a href="http://python-in-astronomy.github.io/">Python in Astronomy at the Lorentz center in April 2015</a>,
-            i.e. a combination of pre-scheduled and free time (<a href="https://en.wikipedia.org/wiki/Unconference">Unconference"</a>)
-            
-            We'll start with plenary presentations or demos and discussions on Monday.
+            <a href="http://python-in-astronomy.github.io/2015/">Python in Astronomy workshop at the Lorentz center in April 2015</a>,
+            i.e. there will be some pre-scheduled presentations, tutorials and discussion sessions,
+            but most of the time is left free for participants to discuss and work on what they like
+            in small groups (a so-called <a href="https://en.wikipedia.org/wiki/Unconference">unconference</a>).
+        </p>
+        <p>
+            Please note that the following agenda is very preliminary.<br>
+            If you'd like to come and present something, please send an email
+            to <a href="mailto:Christoph.Deil@mpi-hd.mpg.de">Christoph Deil</a>.
+        </p>
+        <p>
+            We'll start with plenary presentations / demos / discussions on Monday:
+
+            <ol>
+                <li><a href="https://github.com/sherpa/sherpa/issues/76">Sherpa GH #76 -- Python 3 support</a></li>
+                <li>Sherpa Sphinx API docs (including the object-oriented API)</li>
+                <li><a href="https://github.com/sherpa/sherpa/issues/73">Sherpa GH #73 -- Poisson statistics with background - implementing wstat</a></li>                
+
+            </ol>    
             
             The rest of the week (Tuesday to Friday) will be mostly a free-form work meeting.
             Workshop participants propose things (features, checks, analyses) they'd like to discuss and
@@ -91,10 +107,79 @@
             Join
         </h3>
         <p>
-            Send an email to Christoph
-            There is no fee
-            Who can / should join?
-            Add confirmed participant list
+            Anyone is welcome to join the workshop. There is no registration fee.<br>
+            Just send an email to <a href="mailto:Christoph.Deil@mpi-hd.mpg.de">Christoph Deil</a>
+            to register, or let me know if you have any questions.
+        </p>
+        <p>
+            Most participants are expected to pay for travel and hotel themselves.
+            There is the option to stay at the MPIK guest house (TODO: cost?)
+            Please contact <a href="mailto:Peter.Eger@mpi-hd.mpg.de">Peter Eger</a>
+            if you'd like to book a room at the MPIK guest house or if you have
+            any questions concerning accomodation.
+        </p>
+        <p>
+            If you're new to <a href="https://www.python.org/">Python</a>,
+            we recommend that you spend some time to learn it before the workshop
+            in the context of scientific computing and Astronomy.<br>    
+            <ul>
+                <li>
+                    The <a href="https://scipy-lectures.github.io/">Python Scientific Lecture Notes</a>
+                    are a good tutorial to learn about 
+                    <a href="http://www.numpy.org/">Numpy</a>,
+                    <a href="http://docs.scipy.org/doc/scipy-0.16.0/reference/">Scipy</a>
+                    and <a href="http://matplotlib.org/">Matplotlib</a>.
+                </li>
+                <li>
+                    The <a href="http://python4astronomers.github.io/">Practical Python for Astronomers</a>
+                    tutorials are a good resource to learn about <a href="http://www.astropy.org/">Astropy</a>
+                    and specifically the <a href="http://python4astronomers.github.io/fitting/fitting.html">Fitting and Modeling 1-D and 2-D Data</a> tutorial to get started with <a href="http://cxc.harvard.edu/sherpa/">Sherpa</a>.
+                </li>
+                <li>
+                    Since Python is very popular overall, and specifically in Astronomy, there's of course
+                    a ton of other free tutorials, books and resources available online, e.g.
+                    the <a href="http://www.astropython.org/">Python for Astronomers web site</a>
+                    or the <a href="http://www.astropy.org/astropy-tutorials/">Astropy tutorials</a>
+                </li>
+                <li>
+                    If you don't have a scientific Python stack installed on your computer,
+                    try it out online at <a href="https://try.jupyter.org/">https://try.jupyter.org/</a>
+                    (this uses the <a href="https://jupyter.org/">Jupyter</a> notbook, formerly known as the 
+                    <a href="http://ipython.org/">IPython</a> notebook) and then to install it on your machine, we recommend <a href="http://continuum.io/downloads">Anaconda</a> as a free,
+                    cross-platform (Linux, Mac, Windows) scientific Python distribution.
+                </li>
+            </ul>
+            
+        </p>            
+        <p>
+            If you're thinking about contributing to one of the open-source projects
+            discussed at this workshop, you should learn a bit about the
+            <a href="https://git-scm.com/">git</a> version control system
+            and 
+            
+            https://help.github.com/categories/bootcamp/
+            
+            http://software-carpentry.org/
+            
+            
+        </p>
+
+        <h3>
+            <a id="participants" class="anchor" href="#participants"><span class="octicon octicon-link"></span></a>
+            Participants
+        </h3>
+        Preliminary list of participants:
+        <p>
+            <ol>
+                <li>Christoph Deil (MPIK, Heidelberg)</li>
+                <li>Axel Donath (MPIK, Heidelberg)</li>
+                <li>Peter Eger (MPIK, Heidelberg)</li>
+                <li>Johannes King (MPIK, Heidelberg)</li>
+                <li>Regis Terrier (APC, Paris)</li>
+                <li>Luigi Tibaldo (SLAC, Stanford)</li>
+                <li>Victor Zabalza (Leicester)</li>
+                <li>Sherpa developers from CFA (if NASA travel request is approved)</li>
+            </ol>    
         </p>
           
     </section>
