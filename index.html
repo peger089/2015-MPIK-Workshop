@@ -25,21 +25,55 @@
             <a id="about" class="anchor" href="#about"><span class="octicon octicon-link"></span></a>
             About
         </h3>
-        <p>
-            We are holding a week-long (November 9 - 13, 2015) workshop on <a href="https://www.python.org/">Python</a> for gamma-ray astronomy at <a href=http://www.mpi-hd.mpg.de/mpi/en/start/>MPIK Heidelberg</a>.
+        <p>            
+            These are exciting times for open-source data analysis for gamma-ray astronomy!
         </p>
         <p>
-            Exciting times in gamma-ray astronomy ...
+            The ground-based <a href="http://www.mpi-hd.mpg.de/hfm/HESS/">H.E.S.S.</a>,
+            <a href="http://veritas.sao.arizona.edu/">VERITAS</a>,
+            <a href="https://magic.mpp.mpg.de/">MAGIC</a> and
+            <a href="http://www.hawc-observatory.org/">HAWC</a> telescopes
+            as well as the <a href="http://fermi.gsfc.nasa.gov/">Fermi</a>
+            gamma-ray telescope in orbit are operating.
+            The <a href="www.cta-observatory.org">Cherenkov Telescope Array (CTA)</a>
+            is being constructed, and data from the first CTA prototype telescopes
+            will come soon.
+        </p>
+        <p>
+            Contrary to the previous and current ground-based telescopes, CTA will
+            be operated as an open observatory, with publicly available data
+            and open-source science tools. (Fermi data and software is already now openly available.)
+        </p>
+        <p>
+            Another development is the adoption of <a href="https://www.python.org/">Python</a> in astronomy
+            (see <a href="http://labs.adsabs.harvard.edu/adsabsadsabs/abs/2015arXiv150703989M/">"Software Use in Astronomy: an Informal Survey"</a>)
+            as well as the move from proprietary analysis software and data formats
+            to open software and data formats.
+            <br>
+            There is now a variety of open-source gamma-ray codes that are being
+            developed on <a href="">Github</a>
+            
+
+            A key aspect is to bring the <a href="http://cxc.cfa.harvard.edu/sherpa/">Sherpa</a>,
+            <a href="https://gammapy.readthedocs.org/en/latest/">Gammapy</a>
+            and <a href="http://naima.readthedocs.org/en/latest/">Naima</a>
+
+            These are also interesting times for the development of open-source Python codes.
+        </p>
+        <p>
+            We are holding a week-long (November 9 - 13, 2015) workshop on Python for gamma-ray astronomy at <a href=http://www.mpi-hd.mpg.de/mpi/en/start/>MPIK Heidelberg</a>.
+        </p>
+        <p>
+            The goal of this workshop is to build better open-source science analysis codes by 
+            The goal is to learn about and work on open-source Python codes for gamma-ray astronomy,
+            The goal is to bring people together that work on open-source gamma-ray astronomy science tools,
+            The goal is to bring the developers and users of the Python-based            
             Python as the glue between different codes and telescopes ...
             Bring people together that are interested in open code, analysis, science.
         </p>
         <p>
-            A key aspect is to bring the <a href="http://cxc.cfa.harvard.edu/sherpa/">Sherpa</a>,
-            <a href="https://gammapy.readthedocs.org/en/latest/">Gammapy</a>
-            and <a href="http://naima.readthedocs.org/en/latest/">Naima</a>
             Python package developers together for a <a href="https://en.wikipedia.org/wiki/Sprint_(software_development)">coding sprint</a>,
-            to build high-level science analysis tools for gamma-ray data from <a href="http://www.mpi-hd.mpg.de/hfm/HESS/">H.E.S.S.</a>, <a href="www.cta-observatory.org">CTA</a> and
-            <a href="http://fermi.gsfc.nasa.gov/">Fermi</a>.
+            to build high-level science analysis tools for
         </p>
         <p>
             A second goal of the workshop is to grow the user and contributor
@@ -86,26 +120,26 @@
             (Not everything will be discussed in detail and worked on in the coming
             days, this is meant to give participants a broad overview.):
             <ol>
-                <li>Introduction: Welcome, MPIK (Jim or Werner?)</li>
-                <li>Introduction: Everyone says who they are and what they are interested in, in 1 minute.</li>
+                <li>Welcome (Jim Hinton)</li>
+                <li>Introductions (1 minute for every): Everyone says who they are and what they are interested in, in 1 minute.</li>
                 <li>Activities: <a href="http://www.mpi-hd.mpg.de/hfm/HESS/">H.E.S.S.</a> (tbd)</li>
                 <li>Activities: <a href="http://veritas.sao.arizona.edu/">VERITAS</a>? (tbd)</li>
                 <li>Activities: <a href="https://magic.mpp.mpg.de/">MAGIC</a>? (tbd)</li>
-                <li>Activities: <a href="https://www.cta-observatory.org/">CTA</a> (tbd)</li>
+                <li>Activities: <a href="https://www.cta-observatory.org/">CTA</a> (Catherine Boisson?)</li>
                 <li>Activities: <a href="http://www.hawc-observatory.org/">HAWC</a>? (tbd)</li>
                 <li>Activities: <a href="http://fermi.gsfc.nasa.gov/">Fermi-LAT</a> (tbd)</li>
                 <li>Activities: X-ray astronomy (tbd)</li>
-                <li>Status: Open example datasets, FITS data and IRF formats? (TBC: Catherine?)</li>
                 <li>Methods: 1D spectrum analysis in regions (like XSPEC) (tbd)</li>
                 <li>Methods: 2D image analysis in energy bands (tbd)</li>
                 <li>Methods: 3D cube analysis (tbd)</li>
                 <li>Methods: stacking observations (IRF averaging) (tbd)</li>
                 <li>Methods: joint modeling of observations (add likelihoods) (tbd)</li>
+                <li>Methods: bias in spectral analysis likelihood estimators (Igor? Christopher? Lea?)</li>
                 <li>Methods: source detection and upper limits? (tbd)</li>
-                <li>Software: <a>Scientific Python</a> (tbd)</li>
-                <li>Software: <a href="http://www.astropy.org/">Astropy</a>? (tbd)</li>
-                <li>Software: <a href="http://cxc.cfa.harvard.edu/sherpa/">Sherpa</a> (tbd)</li>
-                <li>Software: <a href="https://github.com/cta-observatory/ctapipe">ctapipe</a>? (tbd)</li>
+                <li>Software: <a>Scientific Python</a> (Karl?)</li>
+                <li>Software: <a href="http://www.astropy.org/">Astropy</a>? (Tom?)</li>
+                <li>Software: <a href="http://cxc.cfa.harvard.edu/sherpa/">Sherpa</a> (Aneta?)</li>
+                <li>Software: <a href="https://github.com/cta-observatory/ctapipe">ctapipe</a>? (Karl? Jean?)</li>
                 <li>Software: <a href="https://github.com/gammapy/gammapy">Gammapy</a> (Axel Donath)</li>
                 <li>Software: <a href="http://naima.readthedocs.org/en/latest/">Naima</a> (Victor Zabalza)</li>
                 <li>Software: <a href="https://threeml.stanford.edu/">3ML</a> (Luigi Tibaldo)</li>
@@ -124,13 +158,13 @@
                 <li>Long-term technical goals (common tools, data formats, ...)</li>
                 <li>Goals for the workshop</li>
             </ol>
-            on the goals for the workshop as well as long-term goals.
-            
+        </p>
+        <p>
             The rest of the week (Tuesday to Friday) will be mostly a free-form work meeting.
             Workshop participants propose things (features, checks, analyses) they'd like to discuss and
             work on and from small sub-groups to work on in parallel.
-        
-        
+        </p>
+        <p>
             We will offer some few hands-on tutorial sessions
             (these are just first ideas ... depends on participants / interest)
             
@@ -139,28 +173,29 @@
             
             <ol>
                 <li>How to contribute to open source projects -- git, Github, "my first pull request" (tbd)</li>
-                <li>Python programming -- Modules, functions, classes</li>
-                <li>Python C extensions -- SWIG, Cython, ctypes, cffi, Numba?</li>
-                <li>Python tools -- IPython, Jupyter, PyCharm, pytest, Sphinx, pep8, prospector</li>
+                <li>Python programming -- Modules, functions, classes (tbd)</li>
+                <li>Python C extensions -- SWIG, Cython, ctypes, cffi, Numba? (tbd)</li>
+                <li>Python tools -- IPython, Jupyter, PyCharm, pytest, Sphinx, pep8, prospector (tbd)</li>
                 <li><a href="http://cxc.cfa.harvard.edu/sherpa/">Sherpa</a> architecture / code in depth (tbd)</li>
                 <li>Morphology and spectrum analysis with Gammapy (TBC: Johannes King?)</li>
-                <li>SED modeling with Naima (TBC: Victor Zabalza)</li>
-                <li>Build an interactive analysis webpage with Django or Flask?</li>
+                <li>SED modeling with Naima (Victor Zabalza)</li>
+                <li>Build an interactive analysis webpage with Django or Flask? (tbd)</li>
                 <li> ... proposals welcome! ... </li>
             </ol>
-
+        </p>
+        <p>
             Discussion / coding / analysis sessions:
             
             <ol>
-                <li>How to implement 3D cube analysis in Gammapy / Sherpa?</li>
-                <li>How to implement region-based analysis in Gammapy?</li>
-                <li>Try to get the first combined Fermi/IACT/HAWC analysis going?</li>
-                <li>Simulating the gamma-ray sky -- Towards a CTA science challenge?</li>
+                <li>Discussion: Establishing common data formats for better tool inter-operability</li>
+                <li>Discussion/coding: How to implement 3D cube analysis in Gammapy / Sherpa?</li>
+                <li>Discussion/coding: How to implement region-based analysis in Gammapy?</li>
+                <li>Discussion/analysis: Try to get the first combined Fermi/IACT/HAWC analysis going?</li>
+                <li>Discussion/coding: Simulating the gamma-ray sky -- Towards a CTA science challenge?</li>
+                <li>Discussion/coding: How to group observations for speed and to avoid spectral bias? (similar IRFs)</li>
                 <li> ... these are just some first ideas ... proposals welcome!</li>
             </ol>
-
         </p>
-
 
         <h3>
             <a id="join" class="anchor" href="#join" aria-hidden="true"><span class="octicon octicon-link"></span></a>
